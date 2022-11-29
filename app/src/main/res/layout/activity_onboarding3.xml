@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboarding3">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:transitionName="logo_image"
+        android:layout_width="326dp"
+        android:layout_height="452dp"
+        android:foregroundGravity="center_horizontal"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ob3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:transitionName="logo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="48dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Office Furniture"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:transitionName="subs_trans"
+        android:layout_width="380dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="18dp"
+        android:text="The Furniture For All Your Needs is  Now At Your Doorstep."
+        android:textAlignment="center"
+        android:textColor="#686262"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:transitionName="scroll_trans"
+        android:layout_width="279dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/s3" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="272dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="322dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="23dp"
+        android:background="#00000000"
+        android:contentDescription="@string/welcome"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/right_arrow_icon_7580"
+        android:text="Done"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

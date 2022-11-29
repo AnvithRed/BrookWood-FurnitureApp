@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414283265265",
+    "project_id": "brookwood-73530",
+    "storage_bucket": "brookwood-73530.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414283265265:android:52ed15a3a83f53c09e6550",
+        "android_client_info": {
+          "package_name": "com.example.brookwood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414283265265-jeqk6od0npethv2i0hgvr62cu7t7nftu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMXKRwtoaSNsQFAJqHlfaWO-Kp4UF7LNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414283265265-jeqk6od0npethv2i0hgvr62cu7t7nftu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
